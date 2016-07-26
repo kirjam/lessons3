@@ -3,21 +3,22 @@ var respond;
 function howManyAnimals(number){
   if
   (number<= 10){
-    respond- reaction[0];
+    respond= reaction[0];
   }
   else if
   (number<= 50){
-    respond- reaction[1];
+    respond= reaction[1];
   }
   else if
   (number<= 100){
-    respond- reaction[2];
+    respond= reaction[2];
   }
   else if
   (number== 101) {
-    respond- reaction[2] и reaction[3];
+    respond= reaction[2] + reaction[3];
   }
 return{
     alert(respond);
 }
 }
+
