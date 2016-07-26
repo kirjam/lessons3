@@ -3,6 +3,5 @@ function animals(heads, legs) {
     var legs = prompt ('Введите число ног');
     var cows = (legs - (heads * 2))/2;
     var chicken = heads - cows;
-    alert ('У вас ' + cows + ' коров и ' + chicken + ' куриц' );
-
+    return [chicken, cows];
 }
